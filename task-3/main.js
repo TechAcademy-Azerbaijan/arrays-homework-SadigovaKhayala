@@ -1,9 +1,13 @@
-const prompt = require('prompt');
-prompt.start();
+let  arr=[14,16,3,7,17,19,9];
+let a=0;
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+
+for(i=0;i<arr.length;i++){
+if(i%2==0){
+   a=arr[i]
+ 
+console.log(a)
+
+}
+}
