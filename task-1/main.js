@@ -1,9 +1,10 @@
-const prompt = require('prompt');
-prompt.start();
+let  arr=[4,2,3,4,5,6];
+let sum=0;
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+for(i=0;i<arr.length;i++){
+if(arr[i]>0){
+   sum++
+}
+}
+console.log(sum)
