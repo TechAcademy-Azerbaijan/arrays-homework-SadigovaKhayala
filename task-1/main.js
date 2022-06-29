@@ -1,10 +1,11 @@
-let  arr=[4,2,3,4,5,6];
-let  arr2=[];
-
+let arr=[3,5,-7,7,5,-9,-4];
+let count=0
+let temp=[]
 
 for(i=0;i<arr.length;i++){
-if(!arr2.includes(arr[i])){
-  arr2.push(arr[i])
+    if(!temp.includes(arr[i])){
+temp.push(arr[i])
+    }
 }
-}
-console.log(arr2.length)
+
+console.log(temp.length);
